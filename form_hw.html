@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input {
+        padding: 5px 10px;
+        margin: 10px;
+        border-radius: 5px;
+        outline: none;
+        background-color: rgb(245, 155, 65);
+        border: 2px dashed brown;
+      }
+      textarea {
+        background-color: rgb(245, 155, 65);
+        color: black;
+        outline: none;
+        resize: none;
+        border-radius: 15px;
+        padding: 10px;
+      }
+      #gender {
+        padding: 5px 10px;
+        margin: 10px;
+        border-radius: 5px;
+        outline: none;
+        background-color: rgb(245, 155, 65);
+        border: 2px dashed brown;
+      }
+      button {
+        color: white;
+        background-color: black;
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+        margin: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      button:hover {
+        transform: scale(1.05);
+        background: white;
+        color: black;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to codehlep</h1>
+    <h1>contact us form</h1>
+    <form action="">
+      <label for="name">Name</label>
+      <input type="name" id="name" placeholder="Enter your name" /><br />
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email id" />
+      <br />
+      <label for="phno">Contact Number</label>
+      <input type="number" id="phno" placeholder="+91 9***9***9*" />
+      <br />
+      <label for="gender">Gender</label>
+      <select id="gender">
+        <option value="Male">Male</option>
+        <option value="femaile">Female</option>
+      </select>
+      <br />
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" />
+      <br />
+      <label for="ratig">Rating</label>
+      <input type="radio" name="1" id="rating" />1
+      <input type="radio" name="1" id="rating" />2
+      <input type="radio" name="1" id="rating" />3
+      <input type="radio" name="1" id="rating" />4
+      <input type="radio" name="1" id="rating" />5
+      <br />
+      <label for="msg">Enter your Message</label>
+      <br />
+      <textarea
+        id="msg"
+        placeholder="Enter your message"
+        cols="30"
+        rows="5"
+      ></textarea>
+      <br />
+      <button>Send</button>
+      <button>Reset</button>
+    </form>
+    <a href="https://youtube.com " target="_blank"
+      ><img
+        src="https://www.logo.wine/a/logo/YouTube/YouTube-Icon-Full-Color-Logo.wine.svg"
+        width="50px"
+        alt="youtube pic"
+    /></a>
+    <a href="https://instagram.com" target="_blank"
+      ><img
+        src="https://www.logo.wine/a/logo/Instagram/Instagram-Logo.wine.svg"
+        width="50px"
+        alt="instagram pic"
+    /></a>
+    <a href="https://telegram.org" target="_blank"
+      ><img
+        src="https://www.logo.wine/a/logo/Telegram_(software)/Telegram_(software)-Logo.wine.svg"
+        width="50px"
+        alt="telegram pic"
+    /></a>
+  </body>
+</html>
